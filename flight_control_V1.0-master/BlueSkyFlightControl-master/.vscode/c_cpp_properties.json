@@ -1,0 +1,45 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/FreeRTOS/Source/include",
+                "${workspaceFolder}/FreeRTOS/Source/portable/RVDS/ARM_CM4F",
+                "${workspaceFolder}/STMLIB",
+                "${workspaceFolder}/STMLIB/inc",
+                "${workspaceFolder}/STMLIB/include",
+				"${workspaceFolder}/STMLIB/CORE",
+				"${workspaceFolder}/STMLIB/USB",
+				"${workspaceFolder}/STMLIB/USB/STM32_USB_OTG_Driver/inc",
+				"${workspaceFolder}/STMLIB/USB/STM32_USB_Device_Library/Core/inc",
+				"${workspaceFolder}/STMLIB/USB/STM32_USB_Device_Library/Class/cdc/inc",
+                "${workspaceFolder}/SRC/CONTROL",
+                "${workspaceFolder}/SRC/MESSAGE",
+                "${workspaceFolder}/SRC/DRIVER",
+                "${workspaceFolder}/SRC/MATH",
+                "${workspaceFolder}/SRC/MODULE",
+                "${workspaceFolder}/SRC/NAVIGATION",
+                "${workspaceFolder}/SRC/SENSOR",
+                "${workspaceFolder}/SRC/SYSTEM",
+				"${workspaceFolder}/SRC/TASK",
+				"${workspaceFolder}/MAVLINK"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64"
+        }
+    ],
+    "version": 4
+}
